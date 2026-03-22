@@ -1,0 +1,60 @@
+User-agent: *
+Allow: /
+Allow: /business-lunch
+Allow: /about-company
+Allow: /staff
+Allow: /reviews
+Allow: /feedback
+Allow: /restaurant/
+
+Disallow: /login
+Disallow: /register
+Disallow: /cart
+Disallow: /orders
+Disallow: /profile
+Disallow: /settings
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /node_modules/
+Disallow: /build/
+Disallow: /dist/
+
+Sitemap: https://fooddelivery.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Allow: /restaurant/
+Allow: /reviews
+Allow: /feedback
+Disallow: /login
+Disallow: /register
+Disallow: /cart
+Disallow: /orders
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: Googlebot-Image
+Allow: /images/
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: Yandex
+Allow: /
+Allow: /restaurant/
+Allow: /reviews
+Disallow: /login
+Disallow: /register
+Disallow: /cart
+Disallow: /orders
+Disallow: /admin/
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php

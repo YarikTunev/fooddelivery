@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Главная страница -->
+  <url>
+    <loc>https://fooddelivery.com/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Страница входа -->
+  <url>
+    <loc>https://fooddelivery.com/login</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <!-- Страница регистрации -->
+  <url>
+    <loc>https://fooddelivery.com/register</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <!-- Страница отзывов -->
+  <url>
+    <loc>https://fooddelivery.com/reviews</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Обратная связь -->
+  <url>
+    <loc>https://fooddelivery.com/feedback</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Страницы ресторанов -->
+  <url>
+    <loc>https://fooddelivery.com/restaurant/1</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fooddelivery.com/restaurant/2</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fooddelivery.com/restaurant/3</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fooddelivery.com/restaurant/4</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fooddelivery.com/restaurant/5</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- О компании -->
+  <url>
+    <loc>https://fooddelivery.com/about-company</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- О сотрудниках -->
+  <url>
+    <loc>https://fooddelivery.com/staff</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <!-- Бизнес ланч -->
+  <url>
+    <loc>https://fooddelivery.com/business-lunch</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
