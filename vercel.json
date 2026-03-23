@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "http://fooddelivery.s99220rx.beget.tech/api/:path*"
+    },
+    {
+      "source": "/images/:path*",
+      "destination": "http://fooddelivery.s99220rx.beget.tech/images/:path*"
+    }
+  ]
+}
