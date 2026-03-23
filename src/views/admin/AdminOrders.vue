@@ -54,7 +54,7 @@ export default {
       loading: false,
       error: null,
       updatingOrder: null,
-      API_URL: 'https://fooddelivery.s99220rx.beget.tech/api'
+      API_URL: 'http://fooddelivery.s99220rx.beget.tech/api'
     }
   },
   created() {

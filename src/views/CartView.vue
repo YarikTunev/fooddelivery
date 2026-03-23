@@ -87,7 +87,7 @@ export default {
       phone: '',
       loading: false,
       deliveryPrice: 300,
-      API_URL: 'https://fooddelivery.s99220rx.beget.tech/api'
+      API_URL: 'http://fooddelivery.s99220rx.beget.tech/api'
     }
   },
   computed: {

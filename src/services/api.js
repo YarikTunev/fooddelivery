@@ -1,4 +1,4 @@
-API_URL: 'https://fooddelivery.s99220rx.beget.tech/api/'
+API_URL: 'http://fooddelivery.s99220rx.beget.tech/api/'
 
 function getHeaders() {
   const token = localStorage.getItem('token')
