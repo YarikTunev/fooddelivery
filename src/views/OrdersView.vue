@@ -56,7 +56,7 @@ export default {
       orders: [],
       loading: false,
       error: null,
-      API_URL: 'http://fooddelivery.s99220rx.beget.tech/api'
+      API_URL: '/api'
     }
   },
   computed: {

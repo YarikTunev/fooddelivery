@@ -6,31 +6,15 @@
 
   <!-- Главная страница -->
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Страница входа -->
-  <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/login</loc>
-    <lastmod>2026-01-15</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <!-- Страница регистрации -->
-  <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/register</loc>
-    <lastmod>2026-01-15</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.2</priority>
-  </url>
-
   <!-- Страница отзывов -->
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/reviews</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/reviews</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -38,7 +22,7 @@
 
   <!-- Обратная связь -->
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/feedback</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/feedback</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -46,31 +30,31 @@
 
   <!-- Страницы ресторанов -->
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/restaurant/1</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/restaurant/1</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/restaurant/2</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/restaurant/2</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/restaurant/3</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/restaurant/3</loc>
     <lastmod>2026-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/restaurant/4</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/restaurant/4</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/restaurant/5</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/restaurant/5</loc>
     <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -78,7 +62,7 @@
 
   <!-- О компании -->
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/about-company</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/about-company</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -86,14 +70,14 @@
 
   <!-- О сотрудниках -->
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/staff</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/staff</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <!-- Бизнес ланч -->
   <url>
-    <loc>https://fooddelivery-tau-fawn.vercel.app/business-lunch</loc>
+    <loc>https://unrivaled-alpaca-16dc17.netlify.app/business-lunch</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
