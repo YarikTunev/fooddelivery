@@ -44,7 +44,7 @@ export default {
       restaurants: [],
       loading: false,
       user: null,
-      API_URL: 'http://fooddelivery.s99220rx.beget.tech/api'
+      API_URL: '/api'
     }
   },
   created() {

@@ -66,7 +66,7 @@ export default {
   props: {
     apiUrl: {
       type: String,
-      default: 'http://fooddelivery.s99220rx.beget.tech/api/feedback'
+      default: '/api/feedback'
     },
     onSuccess: {
       type: Function,
