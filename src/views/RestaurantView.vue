@@ -45,7 +45,7 @@ export default {
       loading: false,
       showModal: false,
       modalItem: null,
-      API_BASE: import.meta.env.VITE_API_URL || '/api/'
+      API_BASE: 'http://fooddelivery.s99220rx.beget.tech/api/'
     }
   },
   created() {

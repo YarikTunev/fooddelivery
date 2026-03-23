@@ -56,7 +56,7 @@ export default {
       orders: [],
       loading: false,
       error: null,
-      API_URL: import.meta.env.VITE_API_URL || '/api'
+      API_URL: 'http://fooddelivery.s99220rx.beget.tech/api'
     }
   },
   computed: {

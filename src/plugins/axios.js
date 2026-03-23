@@ -1,4 +1,4 @@
-export const API_URL = 'http://fooddelivery.s99220rx.beget.tech/api'
+VITE_API_URL=http://fooddelivery.s99220rx.beget.tech
 
 export function getAuthHeaders() {
   const token = localStorage.getItem('token')

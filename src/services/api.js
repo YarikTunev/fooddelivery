@@ -1,4 +1,4 @@
-API_URL: import.meta.env.VITE_API_URL || '/api/'
+API_URL: 'http://fooddelivery.s99220rx.beget.tech/api/'
 
 function getHeaders() {
   const token = localStorage.getItem('token')
