@@ -6,7 +6,7 @@
 
   <!-- Главная страница -->
   <url>
-    <loc>http://fooddelivery.com/</loc>
+    <loc>https://fooddelivery-tau-fawn.vercel.app/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
