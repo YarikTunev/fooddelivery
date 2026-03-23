@@ -25,7 +25,7 @@ Disallow: /node_modules/
 Disallow: /build/
 Disallow: /dist/
 
-Sitemap: https://fooddelivery-tau-fawn.vercel.app/sitemap.xml
+Sitemap: https://unrivaled-alpaca-16dc17.netlify.app/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
@@ -53,8 +53,3 @@ Disallow: /register
 Disallow: /cart
 Disallow: /orders
 Disallow: /admin/
-
-User-agent: *
-Disallow: /wp-admin/
-Disallow: /wp-login.php
-Disallow: /xmlrpc.php
