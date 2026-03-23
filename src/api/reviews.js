@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.VUE_APP_API_URL || 'http://fooddelivery.s99220rx.beget.tech/api',
+  baseURL: process.env.VUE_APP_API_URL || 'http://fooddelivery.s99220rx.beget.tech',
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
