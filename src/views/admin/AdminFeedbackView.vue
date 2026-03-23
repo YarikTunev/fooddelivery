@@ -80,7 +80,7 @@ export default {
       pagination: {},
       selected: null,
       page: 1,
-      API_URL: 'http://fooddelivery.s99220rx.beget.tech/api'
+      API_URL: 'https://fooddelivery.s99220rx.beget.tech/api'
     }
   },
   created() {

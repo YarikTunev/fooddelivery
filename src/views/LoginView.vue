@@ -29,7 +29,7 @@ export default {
       formData: { email: '', password: '' },
       loading: false,
       error: null,
-      API_URL: 'http://fooddelivery.s99220rx.beget.tech/api'
+      API_URL: 'https://fooddelivery.s99220rx.beget.tech/api'
     }
   },
   created() {},

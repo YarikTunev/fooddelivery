@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://fooddelivery.s99220rx.beget.tech/api/:path*"
+      "destination": "https://fooddelivery.s99220rx.beget.tech/api/:path*"
     },
     {
       "source": "/images/:path*",
-      "destination": "http://fooddelivery.s99220rx.beget.tech/images/:path*"
+      "destination": "https://fooddelivery.s99220rx.beget.tech/images/:path*"
     }
   ]
 }
