@@ -153,7 +153,7 @@ img {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1400px) {
   .burger-btn {
     display: flex;
   }
