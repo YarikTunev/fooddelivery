@@ -346,7 +346,7 @@ export default {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   .burger-btn {
     display: flex;
   }
