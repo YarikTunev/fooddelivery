@@ -7,7 +7,7 @@
     
     <div v-else class="restaurants-grid">
       <div v-for="r in restaurants" :key="r.id" class="restaurant-card" :class="{ inactive: !r.is_active }">
-        <img v-if="r.image" :src="r.image" :alt="r.name">
+        <img v-if="r.image" :src="r.image" :alt="r.name" :title="r.name">
         
         <span v-if="!r.is_active" class="status-badge inactive">
           ✗ Не активен

@@ -54,7 +54,7 @@
 
     <div v-else class="items-grid">
       <div v-for="item in items" :key="item.id" class="item-card" :class="{ inactive: !item.is_active }">
-        <img v-if="item.image" :src="item.image" :alt="item.name">
+        <img v-if="item.image" :src="item.image" :alt="item.name" :title="item.name">
         <h3>{{ item.name }}</h3>
         <p>{{ item.description }}</p>
         <p class="address">{{ item.address }}</p>

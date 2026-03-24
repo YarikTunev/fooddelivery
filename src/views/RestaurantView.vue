@@ -6,7 +6,7 @@
     <div v-if="loading" class="loading">Загрузка меню...</div>
     <div v-else class="menu-grid">
       <div v-for="item in menu" :key="item.id" class="dish-card">
-        <img v-if="item.image" :src="item.image" :alt="item.name">
+        <img v-if="item.image" :src="item.image" :alt="item.name" :title="item.name">
         <h3>{{ item.name }}</h3>
         <p class="desc">{{ item.description }}</p>
         <p class="price">{{ item.price }} ₽</p>
