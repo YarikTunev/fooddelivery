@@ -157,7 +157,7 @@ export default {
       formError: '',
       isSubmitting: false,
       openFaqIndex: null,
-      API_URL: 'http://fooddelivery.s99220rx.beget.tech/api',
+      API_URL: '/api',
       faqItems: [
         {
           question: 'Как быстро доставляют заказ?',
