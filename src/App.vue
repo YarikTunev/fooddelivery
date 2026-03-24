@@ -129,7 +129,7 @@
     </footer>
   </div>
 </template>
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-53MRJDQ2CM"></script>
 <script>
 import { useMetaTags } from '../src/composables/useMetaTags'
 
@@ -316,9 +316,6 @@ export default {
     }
   }
 }
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-53MRJDQ2CM"></script>
-<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
