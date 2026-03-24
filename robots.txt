@@ -25,6 +25,7 @@ Disallow: /node_modules/
 Disallow: /build/
 Disallow: /dist/
 
+Yandex: https://fooddelivery-tau-fawn.vercel.app/yandex_59349ab9db987d89.html
 Sitemap: https://fooddelivery-tau-fawn.vercel.app/sitemap.xml
 
 User-agent: Googlebot
