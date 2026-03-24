@@ -317,7 +317,14 @@ export default {
   }
 }
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-53MRJDQ2CM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-53MRJDQ2CM');
+</script>
 <style scoped>
 .burger-btn{display:none;flex-direction:column;gap:5px;background:0 0;border:none;cursor:pointer;padding:5px}.burger-line{width:25px;height:3px;border-radius:2px;transition:.3s}.burger-btn.active .burger-line:first-child{transform:rotate(45deg) translate(5px,5px)}.burger-btn.active .burger-line:nth-child(2),.fade-enter-from,.fade-leave-to{opacity:0}.burger-btn.active .burger-line:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}@media (max-width:1400px){.burger-btn{display:flex}.nav-links{position:fixed;top:70px;left:0;right:0;flex-direction:column;padding:20px;border-bottom:2px solid #fcd34d;transform:translateY(-100%);opacity:0;visibility:hidden;transition:.3s;z-index:100}.nav-links.active{transform:translateY(0);opacity:1;visibility:visible}.mobile-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:99}.desktop-user-block,.mobile-user-block{margin-top:15px;padding-top:15px;border-top:1px solid #fcd34d;display:flex;flex-direction:column;gap:10px;align-items:center}.desktop-user-block{display:none}}@media (min-width:769px){.mobile-user-block{display:none}.desktop-user-block{display:flex;align-items:center;gap:10px;margin-left:20px}}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.slide-enter-active,.slide-leave-active{transition:.3s}.slide-enter-from,.slide-leave-to{opacity:0;transform:translateY(-10px)}
 </style>
