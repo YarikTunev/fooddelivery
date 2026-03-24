@@ -4,10 +4,55 @@
     <p class="subtitle">Заказывайте еду из лучших ресторанов города</p>
     
     <div v-if="loading" class="loading">Загрузка...</div>
-    
-    <div v-else class="restaurants-grid">
-      <div v-for="r in restaurants" :key="r.id" class="restaurant-card" :class="{ inactive: !r.is_active }">
-        <img v-if="r.image" :src="r.image" :alt="r.name" :title="r.name">
+    <div v-else-if="restaurants.length > 0" class="restaurants-grid">
+      
+      <div class="restaurant-card" :class="{ inactive: !restaurants[0].is_active }">
+        <img 
+          v-if="restaurants[0].image" 
+          :src="restaurants[0].image" 
+          :alt="restaurants[0].name" 
+          :title="restaurants[0].name"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        >
+        
+        <span v-if="!restaurants[0].is_active" class="status-badge inactive">
+          ✗ Не активен
+        </span>
+        
+        <h3>{{ restaurants[0].name }}</h3>
+        <p>{{ restaurants[0].description }}</p>
+        <p class="address">{{ restaurants[0].address }}</p>
+        
+        <button 
+          v-if="!restaurants[0].is_active" 
+          class="btn btn-disabled" 
+          disabled
+        >
+          Временно закрыто
+        </button>
+        <router-link 
+          v-else 
+          :to="`/restaurant/${restaurants[0].id}`" 
+          class="btn btn-primary"
+        >
+          Перейти в меню
+        </router-link>
+      </div>
+      <div 
+        v-for="r in restaurants.slice(1)" 
+        :key="r.id" 
+        class="restaurant-card" 
+        :class="{ inactive: !r.is_active }"
+      >
+        <img 
+          v-if="r.image" 
+          :src="r.image" 
+          :alt="r.name" 
+          :title="r.name"
+          loading="lazy"
+        >
         
         <span v-if="!r.is_active" class="status-badge inactive">
           ✗ Не активен
@@ -33,6 +78,8 @@
         </router-link>
       </div>
     </div>
+
+    <div v-else-if="!loading" class="loading">Рестораны не найдены</div>
   </div>
 </template>
 
