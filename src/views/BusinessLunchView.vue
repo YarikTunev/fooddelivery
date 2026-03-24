@@ -32,7 +32,6 @@
             loading="lazy"
             width="300"
             height="200"
-            title="Бизнес-ланч Офисный"
           >
           <figcaption>Комплекс «Офисный» — 299 ₽</figcaption>
           <h3>«Офисный»</h3>
@@ -52,7 +51,6 @@
             loading="lazy"
             width="300"
             height="200"
-            title="Бизнес-ланч Премиум"
           >
           <figcaption>Комплекс «Премиум» — 449 ₽</figcaption>
           <h3>«Премиум»</h3>
@@ -73,7 +71,6 @@
             loading="lazy"
             width="300"
             height="200"
-            title="Бизнес-ланч Фитнес"
           >
           <figcaption>Комплекс «Фитнес» — 399 ₽</figcaption>
           <h3>«Фитнес»</h3>
