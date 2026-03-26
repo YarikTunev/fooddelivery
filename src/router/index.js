@@ -148,17 +148,7 @@ const router = createRouter({
     }
   },
   
-  { 
-    path: '/:pathMatch(.*)*', 
-    name: 'NotFound', 
-    component: NotFound,
-    meta: { 
-      showFooter: true,
-      title: 'Страница не найдена — 404 | FoodDelivery',
-      description: 'Запрашиваемая страница не найдена. Вернитесь на главную и выберите ресторан для заказа доставки еды в Перми.',
-      keywords: '404, страница не найдена, ошибка'
-    }
-  },
+
   // Новый маршрут
   { 
     path: '/business-lunch', 
@@ -170,22 +160,34 @@ const router = createRouter({
       keywords: 'доставка бизнес ланчей, бизнес ланч с доставкой, доставка обедов в офис, корпоративное питание перми, заказать бизнес ланч, комплексные обеды доставка'
     }
   },
-    { 
-      path: '/admin', 
-      name: 'admin', 
-      component: AdminView, 
-      meta: { requiresAuth: true, role: 'admin' },
-      children: [
-        { path: '', redirect: '/admin/restaurants' },
-        { path: 'restaurants', name: 'admin-restaurants', component: AdminRestaurants },
-        { path: 'menu', name: 'admin-menu', component: AdminMenu },
-        { path: 'orders', name: 'admin-orders', component: AdminOrders },
-        { path: 'users', name: 'admin-users', component: AdminUsers },
-        { path: 'reviews', name: 'admin-reviews', component:AdminReviewsModeration },
-        { path: 'feedback', name: 'admin-feedback',  component: AdminFeedbackView }
-      ]
-    },
+  { 
+    path: '/admin', 
+    name: 'admin', 
+    component: AdminView, 
+    meta: { requiresAuth: true, role: 'admin' },
+    children: [
+      { path: '', redirect: '/admin/restaurants' },
+      { path: 'restaurants', name: 'admin-restaurants', component: AdminRestaurants },
+      { path: 'menu', name: 'admin-menu', component: AdminMenu },
+      { path: 'orders', name: 'admin-orders', component: AdminOrders },
+      { path: 'users', name: 'admin-users', component: AdminUsers },
+      { path: 'reviews', name: 'admin-reviews', component:AdminReviewsModeration },
+      { path: 'feedback', name: 'admin-feedback',  component: AdminFeedbackView }
+    ]
+  },
+  { 
+  path: '/:pathMatch(.*)*', 
+  name: 'NotFound', 
+  component: NotFound,
+  meta: { 
+    showFooter: true,
+    title: 'Страница не найдена — 404 | FoodDelivery',
+    description: 'Запрашиваемая страница не найдена. Вернитесь на главную и выберите ресторан для заказа доставки еды в Перми.',
+    keywords: '404, страница не найдена, ошибка'
+  }
+  },
   ]
+  
 })
 
 router.beforeEach((to, from, next) => {

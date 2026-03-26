@@ -8,5 +8,4 @@
       "source": "/images/:path*",
       "destination": "http://fooddelivery.s99220rx.beget.tech/images/:path*"
     }
-  ]
 }
