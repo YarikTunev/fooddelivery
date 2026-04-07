@@ -166,7 +166,7 @@ const router = createRouter({
     component: AdminView, 
     meta: { requiresAuth: true, role: 'admin' },
     children: [
-      { path: '', redirect: '/admin/restaurants' },
+      { path: '', redirect: '/adminowno/restaurants' },
       { path: 'restaurants', name: 'admin-restaurants', component: AdminRestaurants },
       { path: 'menu', name: 'admin-menu', component: AdminMenu },
       { path: 'orders', name: 'admin-orders', component: AdminOrders },
